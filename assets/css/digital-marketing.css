@@ -1,132 +1,150 @@
-            .head {
-                height: auto;
-            }
-            
-            .digital {
-                background-color: #001a33;
-            }
-            
-            .digital-text {
-                font-size: 100px;
-                margin-left: 30px;
-            }
-            
-            .hr1 {
-                margin-left: 30px;
-                height: 3px !important;
-            }
-            
-            .digital_para {
-                margin-left: 30px;
-                margin-right: 100px;
-            }
-            
-            .img-bg {
-                background-color: #eac198;
-            }
-            
-            .img1 {
-                height: auto;
-                width: 100%;
-                position: relative;
-            }
-            
-            .img2 {
-                background-color: white;
-                border: 25px solid white;
-                border-radius: 20%;
-                position: absolute;
-                /* margin-top: -1510px;
+                .head {
+                    height: auto;
+                }
+                
+                .digital {
+                    background-color: #001a33;
+                }
+                
+                .digital-text {
+                    font-size: 100px;
+                    margin-left: 30px;
+                }
+                
+                .hr1 {
+                    margin-left: 30px;
+                    height: 3px !important;
+                }
+                
+                .digital_para {
+                    margin-left: 30px;
+                    margin-right: 100px;
+                }
+                
+                .img-bg {
+                    background-color: #eac198;
+                }
+                
+                .img1 {
+                    height: auto;
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .img2 {
+                    background-color: white;
+                    border: 25px solid white;
+                    border-radius: 20%;
+                    position: absolute;
+                    /* margin-top: -1510px;
         margin-left: -92px; */
-                margin-top: -760px;
-                margin-left: -92px;
-            }
-            
-            .img3 {
-                background-color: white;
-                border: 25px solid white;
-                border-radius: 20%;
-                position: absolute;
-                margin-top: -500px;
-                margin-left: 20px;
-            }
-            
-            .img4 {
-                position: absolute;
-                margin-top: -700px;
-                margin-left: 73px;
-            }
-            
-            .img5 {
-                position: absolute;
-                margin-top: -750px;
-                margin-left: 430px;
-            }
-            
-            .img6 {
-                margin-top: -1101px;
-                margin-left: 503px;
-            }
-            
-            .service_text {
-                font-size: 80px;
-            }
-            
-            .col_1 {
-                height: 250px;
-                background-color: #4e63da;
-            }
-            
-            .col_2 {
-                height: 250px;
-                background-color: rgb(225, 228, 230);
-            }
-            
-            .col_3 {
-                height: 250px;
-                background-color: rgb(176, 186, 197);
-            }
-            
-            .col_5 {
-                height: 250px;
-                background-color: rgb(176, 186, 197);
-            }
-            
-            .col_6 {
-                height: 250px;
-                background-color: rgb(113, 119, 126);
-            }
-            
-            .market_text {
-                font-size: 75px;
-            }
-            
-            .work {
-                background-color: black;
-            }
-            
-            .work_box1 {
-                height: 20px;
-                width: 20px;
-            }
-            
-            .work_box2 {
-                height: 50px;
-                width: 50px;
-            }
-            
-            .img7 {
-                height: 350px;
-            }
-            
-            .img8 {
-                height: 55rem;
-            }
-            
-            .next_head {
-                background-color: #4e63da;
-            }
-            
-            .next_write {
-                font-size: 50px;
-            }
+                    margin-top: -760px;
+                    margin-left: -92px;
+                }
+                
+                .img3 {
+                    background-color: white;
+                    border: 25px solid white;
+                    border-radius: 20%;
+                    position: absolute;
+                    margin-top: -500px;
+                    margin-left: 20px;
+                }
+                
+                .img4 {
+                    position: absolute;
+                    margin-top: -700px;
+                    margin-left: 73px;
+                }
+                
+                .img5 {
+                    position: absolute;
+                    margin-top: -750px;
+                    margin-left: 430px;
+                }
+                
+                .img6 {
+                    margin-top: -1101px;
+                    margin-left: 503px;
+                }
+                
+                .service_text {
+                    font-size: 7vw;
+                    margin-left: 10px;
+                }
+                
+                .col_1 {
+                    height: 250px;
+                    background-color: #4e63da;
+                }
+                
+                .col_2 {
+                    height: 250px;
+                    background-color: rgb(225, 228, 230);
+                }
+                
+                .col_3 {
+                    height: 250px;
+                    background-color: rgb(176, 186, 197);
+                }
+                
+                .col_5 {
+                    height: 250px;
+                    background-color: rgb(176, 186, 197);
+                }
+                
+                .col_6 {
+                    height: 250px;
+                    background-color: rgb(113, 119, 126);
+                }
+                
+                .market_text {
+                    font-size: 75px;
+                }
+                
+                .work {
+                    background-color: black;
+                }
+                
+                .big {
+                    height: 150px;
+                    width: 150px;
+                }
+                
+                .main {
+                    width: fit-content;
+                }
+                
+                .work_box1 {
+                    height: 100px;
+                    width: 100px;
+                    background-color: #4e63da;
+                }
+                
+                .work_box2 {
+                    height: 50px;
+                    width: 50px;
+                    background-color: rgb(255, 255, 255);
+                }
+                
+                .img7 {
+                    height: 350px;
+                }
+                
+                .img8 {
+                    height: 45rem;
+                    background-position: center center;
+                    background-size: cover;
+                }
+                
+                .next_head {
+                    background-color: #40c816;
+                }
+                
+                .next_write {
+                    font-size: 50px;
+                }
+                
+                .next-para {
+                    color: white;
+                }
