@@ -354,38 +354,16 @@
   
 .stars{
   position: absolute;
-  top: 500px;
-  left: 950px;
   width: 300px;
-  justify-content: center;
+  /* justify-content: start; */
   padding: 20px;
   border-radius: 10px;
+  bottom: 10%;
+  
 
 
 }
-.star-absolute{
-
-
+.pos-allone{
   position: relative;
-  top: 0;
-  left: 20;
- 
-}
-
-@media screen and (max-width: 1700px) {
-  .stars {
-   
-  }
-}
-
-.graphic{
-  position: absolute;
-  bottom: 400px;
-    right: 20px;
-}
-
-.graphic-absolute{
-  position: relative;
-  top: 0;
-  left: 20;
+  
 }
