@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .head {
     height: auto;
 }
@@ -125,6 +130,7 @@ width: 50px !important;
     height: 95px;
     width: 95px;
     top: -36px;
+    margin-left: 30px;
 }
 
 .main {
