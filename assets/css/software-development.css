@@ -1,46 +1,51 @@
-.one{
-    background-color: rgba(78,99,218,255);
-    
-  }
-  
-  .head1{
-  /* text-align: start; */
-  /* margin-inline-start: 100px; */
-  margin-block-start: 50px;
-  margin-inline-start: 100px;
-  
-  }
-  .para1{
-      margin-inline-start: 100px;
-      margin-block-start: 50px;
-      padding-top: 100px;
-      margin-inline-end: 80px;
-      
-  }
-  .img1{
-      height: auto;
-      width: 100%;
-  }
-  .two{
-    background-color: rgba(33,41,64,255);
-  }
-  .head2{
-      margin-block-start: 100px;
-      margin-inline-start: 80px;
-  }
-  .para2{
-      margin-block-start: 50px;
-      margin-inline-start: 80px;
-      margin-inline-end: 80px;
-  }
-  
-  .img2{
-      height: 700px;
-      width: 100%;
-  }
-  
-      /* demo */
-  /* 
+.one {
+    background-color: rgba(78, 99, 218, 255);
+}
+
+.head1 {
+    /* text-align: start; */
+    /* margin-inline-start: 100px; */
+    margin-block-start: 50px;
+    margin-inline-start: 100px;
+}
+
+.para1 {
+    margin-inline-start: 100px;
+    margin-block-start: 50px;
+    padding-top: 100px;
+    margin-inline-end: 80px;
+}
+
+.img1 {
+    height: auto;
+    width: 100%;
+}
+
+.two {
+    background-color: rgba(33, 41, 64, 255);
+}
+
+.head2 {
+    margin-block-start: 100px;
+    margin-inline-start: 80px;
+}
+
+.para2 {
+    margin-block-start: 50px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+
+.img2 {
+    height: 700px;
+    width: 100%;
+}
+
+
+/* demo */
+
+
+/* 
   .big{
       height: 150px;
       width: 150px;
@@ -79,7 +84,9 @@
   
   
   /* next page */
-  /* 
+
+
+/* 
   .big{
       height: 150px;
       width: 150px;
@@ -100,168 +107,183 @@
   .wi{
       width: 70%;
   }  */
-    /* demo */
-  .big{
-      height: 150px;
-      width: 150px;
-  }
-  .main{
-      width: fit-content;
-  }
-      
-   .sqr1{
-      width: 100px;
-      height: 100px;
-      background-color: rgba(78,99,218,255);
-    
-  }
-  .sqr2{
-      width: 50px;
-      height: 50px;
-      background-color: rgba(33,41,64,255);
-      
-  }
-  
-  .it{
-      width: fit-content;
-  }
-  
-  .square1{
-      position: relative;
-      background-color: rgba(236,237,241,255);
-      height: 200px;
-      width: 300px;
-  }
-  .square{
-      position: absolute; 
-      width: 200px;
-      height: 150px;
-      top: 80px;
-      right: 50px;
-      background-color: rgba(78,99,218,255);
-  }
-  .icon1
-  {
-      position: absolute; 
-     height: 90px;
-  }
-  
-  .big{
-      height: 150px;
-      width: 150px;
-  }
-  
-  .bluesqn{
-      height: 50px;
-      width: 50px;
-      background-color: white;
-  }
-  
-  .greysqn{
-      height: 100px;
-      width: 100px;
-      background-color: rgba(78,99,218,255);
-  }
-  
-  .wi{
-      width: 70%;
-  }
-  .img{
-      width: 100%;
-  }
-  .text{
-      text-align: center;
-      margin-block-start: 150px;
-  }
-  .head3, .head4, .head5{
-      margin-inline-start: 50px;
-      margin-block-start: 50px;
-  }
-  .para3, .para4, .para5{
+
+
+/* demo */
+
+.big {
+    height: 150px;
+    width: 150px;
+}
+
+.main {
+    width: fit-content;
+}
+
+.sqr1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(78, 99, 218, 255);
+}
+
+.sqr2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(33, 41, 64, 255);
+}
+
+.it {
+    width: fit-content;
+}
+
+.square1 {
+    position: relative;
+    background-color: rgba(236, 237, 241, 255);
+    height: 200px;
+    width: 300px;
+}
+
+.square {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 80px;
+    right: 50px;
+    background-color: rgba(78, 99, 218, 255);
+}
+
+.icon1 {
+    position: absolute;
+    height: 90px;
+}
+
+.big {
+    height: 150px;
+    width: 150px;
+}
+
+.bluesqn {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.greysqn {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(78, 99, 218, 255);
+}
+
+.wi {
+    width: 70%;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin-block-start: 150px;
+}
+
+.head3,
+.head4,
+.head5 {
+    margin-inline-start: 50px;
+    margin-block-start: 50px;
+}
+
+.para3,
+.para4,
+.para5 {
     margin-inline-start: 50px;
     padding-right: 50px;
-  }
-  
-  #myFooter {
+}
+
+#myFooter {
     background-color: #000000;
     color: white;
     padding-top: 50px;
     margin-top: 60px;
-  }
-  
-  #myFooter .footer-copyright {
+}
+
+#myFooter .footer-copyright {
     background-color: #000000;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
-  }
+}
+
+
 /*   
   #myFooter .row {
     margin-bottom: 60px;
   } */
-  
-  #myFooter .footer-copyright p {
+
+#myFooter .footer-copyright p {
     margin: 10px;
     color: #ccc;
-  }
-  
-  #myFooter ul {
+}
+
+#myFooter ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
-  }
-  
-  #myFooter h5 {
+}
+
+#myFooter h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
-  }
-  
-  #myFooter a {
+}
+
+#myFooter a {
     color: #d2d1d1;
     text-decoration: none;
-  }
-  
-  #myFooter a:hover, #myFooter a:focus {
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
     text-decoration: none;
     color: white;
-  }
-  
-  #myFooter .social-networks {
+}
+
+#myFooter .social-networks {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 16px;
-  }
-  
-  #myFooter .social-networks a {
+}
+
+#myFooter .social-networks a {
     font-size: 32px;
     color: #f9f9f9;
     padding: 10px;
     transition: 0.2s;
-  }
-  
-  #myFooter .social-networks a:hover {
+}
+
+#myFooter .social-networks a:hover {
     text-decoration: none;
-  }
-  
-  #myFooter .facebook:hover {
+}
+
+#myFooter .facebook:hover {
     color: #0077e2;
-  }
-  
-  #myFooter .google:hover {
+}
+
+#myFooter .google:hover {
     color: #ef1a1a;
-  }
-  
-  #myFooter .twitter:hover {
+}
+
+#myFooter .twitter:hover {
     color: #00aced;
-  }
-  
-  #myFooter .linkedin:hover {
+}
+
+#myFooter .linkedin:hover {
     color: #007BB6;
-  }
-  
-  #myFooter .btn {
+}
+
+#myFooter .btn {
     color: white;
     background-color: #d84b6b;
     border-radius: 20px;
@@ -290,4 +312,3 @@
   .five{
       background-color: rgba(78,99,218,255);
   }  */
-  
