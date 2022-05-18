@@ -293,16 +293,16 @@
     margin: 0 auto;
     margin-top: 10px;
     line-height: 25px;
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 767px) {
     #myFooter {
-        text-align: center;
+      text-align: center;
     }
-}
+  }
+  
 
-
-/* .three{
+  /* .three{
       color: white;
       background-color:  rgba(33,41,64,255);
   }
