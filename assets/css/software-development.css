@@ -190,6 +190,7 @@
 .head3,
 .head4,
 .head5 {
+    font-size: 3.5vw;
     margin-inline-start: 50px;
     margin-block-start: 50px;
 }
@@ -293,16 +294,26 @@
     margin: 0 auto;
     margin-top: 10px;
     line-height: 25px;
-  }
-  
-  @media screen and (max-width: 767px) {
-    #myFooter {
-      text-align: center;
-    }
-  }
-  
+}
 
-  /* .three{
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .head3 {
+        font-size: 35px;
+    }
+    .head4,
+    .head5 {
+        font-size: 30px;
+    }
+}
+
+
+/* .three{
       color: white;
       background-color:  rgba(33,41,64,255);
   }
