@@ -18,6 +18,19 @@
      height: 500px;
  }
  
+ .work_para {
+     font-size: 14px;
+ }
+ 
+ @media screen and (max-width: 890px) {
+     .work {
+         margin-left: 35px;
+     }
+     .work_text {
+         font-size: 40px !important;
+     }
+ }
+ 
  .img1 {
      width: 100%;
      z-index: .99;
@@ -68,6 +81,14 @@
          width: 100%;
          display: block;
          margin-bottom: 20px;
+     }
+     .para_text {
+         font-size: 12px;
+         margin-left: 0px;
+     }
+     .blockmain {
+         margin-right: 10px;
+         margin-left: -10px;
      }
  }
  /* Style the counter cards */
