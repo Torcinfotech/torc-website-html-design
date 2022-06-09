@@ -1,41 +1,51 @@
 .one {
-    background-color: rgba(78, 99, 218, 255);
+    background-color: #4e63da;
 }
 
 .head1 {
     /* text-align: start; */
     /* margin-inline-start: 100px; */
-    margin-block-start: 50px;
+    margin-block-start: 80px;
     margin-inline-start: 100px;
+    font-weight: bold;
+    font-size: 55px;
 }
-
+@media screen and (max-width: 415px) {
+    .head1{
+        font-size: 30px;
+    }
+}
 .para1 {
     margin-inline-start: 100px;
     margin-block-start: 50px;
-    padding-top: 100px;
+    padding-top: 10px;
     margin-inline-end: 80px;
 }
 
 .img1 {
-    height: auto;
+    height: 700px;
     width: 100%;
 }
-
 .two {
     background-color: rgba(33, 41, 64, 255);
 }
 
 .head2 {
-    margin-block-start: 100px;
+    margin-block-start: 75px;
     margin-inline-start: 80px;
+    font-weight: bold;
+    font-size: 50px;
 }
-
+@media screen and (max-width: 415px) {
+    .head2{
+        font-size: 37px;
+    }
+}
 .para2 {
-    margin-block-start: 50px;
+    margin-block-start: 30px;
     margin-inline-start: 80px;
     margin-inline-end: 80px;
 }
-
 .img2 {
     height: 700px;
     width: 100%;
@@ -131,6 +141,14 @@
     height: 50px;
     background-color: rgba(33, 41, 64, 255);
 }
+@media screen and (max-width: 400px) {
+.what{
+    font-size: 22px;
+}
+.how{
+    font-size: 25px;
+}
+}
 
 .it {
     width: fit-content;
@@ -151,23 +169,19 @@
     right: 50px;
     background-color: rgba(78, 99, 218, 255);
 }
-
 .icon1 {
     position: absolute;
     height: 90px;
 }
-
 .big {
     height: 150px;
     width: 150px;
 }
-
 .bluesqn {
     height: 50px;
     width: 50px;
     background-color: white;
 }
-
 .greysqn {
     height: 100px;
     width: 100px;
@@ -185,6 +199,11 @@
 .text {
     text-align: center;
     margin-block-start: 150px;
+}
+@media screen and (max-width: 415px) {
+.text{
+    margin-block-start: 30px;
+}
 }
 
 .head3,
@@ -311,6 +330,7 @@
         font-size: 30px;
     }
 }
+
 
 
 /* .three{
