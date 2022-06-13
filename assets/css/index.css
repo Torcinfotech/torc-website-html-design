@@ -5,7 +5,7 @@
  .textcontant {
      display: flex;
      justify-content: center;
-     padding-top: 40px;
+     /* padding-top: 40px; */
  }
  
  .section3 {
@@ -18,9 +18,48 @@
      height: 500px;
  }
  
+ .work_para {
+     font-size: 14px;
+ }
+ 
+ .col_perfect {
+     margin: auto;
+     justify-content: center;
+     display: flex;
+     width: 45%;
+ }
+ 
+ @media screen and (max-width: 890px) {
+     .work {
+         margin-left: 35px;
+     }
+     .work_text {
+         font-size: 40px !important;
+     }
+     .what {
+         font-size: 40px!important;
+     }
+     .what_col {
+         width: auto;
+         margin-left: 40px;
+     }
+ }
+ 
+ @media screen and (max-width: 610px) {
+     .what {
+         font-size: 30px!important;
+     }
+     .what_col {
+         margin: 0% !important;
+         width: 0% !important;
+         margin-left: 40px;
+     }
+ }
+ 
  .img1 {
      width: 100%;
      z-index: .99;
+     margin-bottom: 10px;
      /* position: relative; */
  }
  
@@ -68,6 +107,17 @@
          width: 100%;
          display: block;
          margin-bottom: 20px;
+     }
+     .para_text {
+         font-size: 12px;
+         margin-left: 0px;
+     }
+     .blockmain {
+         margin-right: 10px;
+         margin-left: -10px;
+     }
+     .what {
+         min-width: 200px;
      }
  }
  /* Style the counter cards */
@@ -394,4 +444,10 @@
  
  .head1 {
      font-size: 5vw;
+ }
+ 
+ @media screen and (max-width:768px) {
+     .stars {
+         right: 49%;
+     }
  }
