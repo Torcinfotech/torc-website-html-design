@@ -47,7 +47,7 @@
     margin-inline-end: 80px;
 }
 .img2 {
-    height: 700px;
+    height: 600px;
     width: 100%;
 }
 
@@ -200,7 +200,7 @@
     text-align: center;
     margin-block-start: 150px;
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 1196px) {
 .text{
     margin-block-start: 30px;
 }
